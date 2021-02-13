@@ -1,0 +1,263 @@
+.billingHeader{
+    width: 213px;
+    height: 24px;
+    text-align: left;
+    font: normal normal bold 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #0A2463;
+    opacity: 1;
+}
+.billingSentence{
+    width: 404px;
+    height: 18px;
+    white-space: nowrap;
+    text-align: left;
+    font: normal normal 600 14px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #303133;
+
+}
+.billingButton{
+    width: 139px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F0F0F0;
+    border-radius: 4px;
+    opacity: 1;
+    white-space: nowrap;
+    text-align: center;
+    cursor:pointer;
+}
+.button-text{
+    width: 109px;
+    height: 18px;
+    text-align: left;
+    font: normal normal normal 14px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+}
+.billingSentence2{
+    width: 143px;
+    height: 19px;
+    text-align: left;
+    font: normal normal 600 16px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+}
+.billingEdit{
+    width: 51px;
+    height: 18px;
+    text-align: right;
+    font: normal normal normal 14px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #009CB4;
+    opacity: 1;
+}
+.billingLabel{
+    width: 141px;
+    height: 18px;
+
+    text-align: left;
+    font: normal normal 600 14px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+}
+.labelInfo{
+    width: 97px;
+    height: 18px;
+    white-space: nowrap;
+    text-align: left;
+    font: normal normal normal 14px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+
+}
+.imgBorder{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D5D0D0;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.line{
+    width: 1259px;
+    height: 0px;
+    border: 1px solid #D0D0D0;
+    opacity: 1;
+}
+#billDate{
+    width: 297px;
+    height: 18px;
+
+    text-align: center;
+    font: normal normal 600 14px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+}
+.payment{
+display:none;
+}
+.company{
+    display:block;
+}
+.companyEdit{
+    display:none;
+}
+.invoice{
+    display:none;
+}
+.paymentEdit{
+display:none;
+}
+.paymentMethodEdit{
+    display:none;
+}
+.paymentLowerPart{
+    display:none;
+}
+.labelForm{
+    width: 420px;
+    height: 40px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #0A2463;
+    border-radius: 4px;
+    opacity: 1;
+
+}
+.formText{
+    width: 94px;
+    height: 16px;
+
+    text-align: left;
+    font: normal normal 300 14px/16px Ubuntu;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+}
+#domainEdit{
+    width: 141px;
+    height: 24px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F0F0F0;
+    border-radius: 4px;
+    opacity: 1;
+}
+::placeholder {
+    width: 94px;
+    height: 16px;
+
+    text-align: left;
+    font: normal normal 300 14px/16px Ubuntu;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+}
+.sameLabelForm{
+    width: 200px;
+    white-space: nowrap;
+    height: 40px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #0A2463;
+    border-radius: 4px;
+    opacity: 1;
+}
+.submitBtn{
+    width: 146px;
+    height: 39px;
+    background: #0A2463 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    font: normal normal 600 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.cancelBtn{
+
+    width: 91px;
+    height: 40px;
+    text-align: center;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #D0D0D0;
+     font: normal normal normal 14px/14px Montserrat;
+     letter-spacing: 0px;
+     color: #303133;
+     opacity: 1;
+
+}
+th{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #D0D0D0;
+    font: normal normal 600 14px/14px Open Sans;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+}
+.samePaymentForm{
+    width: 200px;
+    height: 40px;
+    margin-right:20px ;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #0A2463;
+    border-radius: 4px;
+    opacity: 1;
+}
+.paymentForm{
+    width: 420px;
+    height: 40px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #0A2463;
+    border-radius: 4px;
+    opacity: 1;
+}
+#paymentCancel{
+
+    margin-left:90px;
+
+}
+.form-check-label{
+    width: 114px;
+    height: 16px;
+    text-align: left;
+    font: normal normal 300 14px/16px Ubuntu;
+    letter-spacing: 0px;
+    color: #303133;
+    opacity: 1;
+    white-space: nowrap;
+}
+.top{
+    padding-top: 10px;
+}
+footer{
+    padding-top: 220px;
+}
+.billingEdit{
+    cursor:pointer;
+}
+.btnAlign{
+    margin-left: -115px;
+}
