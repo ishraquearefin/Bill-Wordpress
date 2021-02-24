@@ -107,7 +107,7 @@ function loadjs(){
 	wp_enqueue_script('bootstrap',get_template_directory_uri().'/js/bootstrap.bundle.min.js',array(),'',1,false);
 	wp_enqueue_script('bootstrap');
 
-wp_register_script('custom',get_template_directory_uri().'/custom.js',array(),'',1,true);
+wp_register_script('custom',get_template_directory_uri().'/js/custom.js',array(),'',1,true);
 wp_enqueue_script('custom');
 
 }
@@ -116,6 +116,19 @@ add_action('wp_enqueue_scripts','loadjs');
 //---------------------------------------------------
 
 //Custom Menus
+function wf_insert_update_user_meta( $user_id, $meta_key, $meta_value ) {
+
+	// Add data in the user meta field.
+	$meta_key_not_exists = add_user_meta( $user_id, $meta_key, $meta_value, true );
+
+	// If meta key already exists then just update the meta value for and return true
+	if ( ! $meta_key_not_exists ) {
+		update_user_meta( $user_id, $meta_key, $meta_value );
+		return true;
+	}
+
+}
+
 register_nav_menus(
 
 array(
